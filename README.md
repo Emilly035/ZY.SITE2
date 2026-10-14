@@ -21,7 +21,7 @@ python3 -m http.server 8000
 
 Qualquer hospedagem de site estático serve. Duas opções simples:
 
-- **Netlify**: em app.netlify.com, "Add new site" → "Import from GitHub" → escolha o repositório `zy.site2`. Deixe o *build command* vazio e o *publish directory* como `.` (raiz).
-- **Vercel**: em vercel.com, "Add New Project" → importe o repositório `zy.site2`, escolha o *Framework Preset* "Other" e publique.
+- **Netlify**: em app.netlify.com, "Add new site" → "Import from GitHub" → escolha o repositório `ZY.SITE2`. Deixe o *build command* vazio e o *publish directory* como `.` (raiz).
+- **Vercel**: em vercel.com, "Add New Project" → importe o repositório `ZY.SITE2`, escolha o *Framework Preset* "Other" e publique.
 
 Depois é possível ligar um domínio próprio (ex.: `zyvora.com.br`, registrado no registro.br).
