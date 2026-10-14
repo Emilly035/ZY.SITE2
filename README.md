@@ -13,7 +13,6 @@ Página de apresentação da Zyvora para lanchonetes, hamburguerias e pizzarias.
 ## Ver no computador
 
 ```sh
-cd site
 python3 -m http.server 8000
 # abra http://localhost:8000
 ```
@@ -22,7 +21,7 @@ python3 -m http.server 8000
 
 Qualquer hospedagem de site estático serve. Duas opções simples:
 
-- **Netlify**: em app.netlify.com, "Add new site" → "Import from GitHub" → escolha o repositório `zyvora` e coloque `site` como *base/publish directory*.
-- **Vercel**: em vercel.com, "Add New Project" → importe o repositório e defina `site` como *Root Directory*.
+- **Netlify**: em app.netlify.com, "Add new site" → "Import from GitHub" → escolha o repositório `zy.site2`. Deixe o *build command* vazio e o *publish directory* como `.` (raiz).
+- **Vercel**: em vercel.com, "Add New Project" → importe o repositório `zy.site2`, escolha o *Framework Preset* "Other" e publique.
 
 Depois é possível ligar um domínio próprio (ex.: `zyvora.com.br`, registrado no registro.br).
